@@ -20,6 +20,9 @@ importers:
       '@modern-js/tsconfig':
         specifier: 2.9.0
         version: 2.9.0
+      '@rslib/core':
+        specifier: link:../rslib/packages/core
+        version: link:../rslib/packages/core
       husky:
         specifier: ^8.0.0
         version: 8.0.3

@@ -42,11 +42,12 @@
   "devDependencies": {
     "@modern-js/monorepo-tools": "2.9.0",
     "@modern-js/eslint-config": "2.9.0",
-    "@modern-js/tsconfig":"2.9.0",
+    "@modern-js/tsconfig": "2.9.0",
     "@modern-js-app/eslint-config": "2.9.0",
     "lint-staged": "^11.2.6",
     "prettier": "^2.6.2",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "@rslib/core": "link:../rslib/packages/core"
   },
   "publishConfig": {
     "access": "public",

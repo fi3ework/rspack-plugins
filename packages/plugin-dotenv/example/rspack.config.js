@@ -1,4 +1,4 @@
-const { DotenvPlugin } = require('../dist');
+const { DotenvPlugin } = require('../dist-rslib/main.js');
 /**
  * @type {import('@rspack/cli').Configuration}
  */
